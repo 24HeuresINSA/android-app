@@ -28,13 +28,15 @@
                     android:id="@+id/detail_sliding_title"
                     android:layout_width="@dimen/detail_title_width"
                     android:layout_height="wrap_content"
-                   android:ellipsize="marquee"
+                    android:ellipsize="marquee"
                     android:marqueeRepeatLimit="marquee_forever"
                     android:scrollHorizontally="true"
                     android:singleLine="true"
                     android:text="@string/detail_title_text"
                     android:textAppearance="@style/detail_title"
-                    android:clickable="false" />
+                    android:clickable="false"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true" />
 
             <!--  <RelativeLayout
                     android:layout_width="@dimen/diameter"
