@@ -273,6 +273,7 @@ public class DetailFragment extends Fragment implements OnMapReadyCallback {
         heavyDataUpdated = false;
 
         detailSlidingTitle.setText(resource.getTitle());
+        detailSlidingTitle.setSelected(true);
         detailSlidingDescription.setText(resource.getDescription());
 
         Schedule schedule = scheduleService.getNextSchedule(resource);
